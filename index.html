@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="إبداع البوز - موقع مميز لعرض الأعمال والخدمات باحترافية.">
+    <meta name="keywords" content="إبداع, البوز, خدمات, أعمال, دهانات, تصميم">
+    <meta name="author" content="إبداع البوز">
+    <title>إبداع البوز</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="icon.png" alt=" إبداع البوز">
+        <h1>إبداع البوز</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#gallery">أعمالنا</a></li>
+                <li><a href="#location">موقعنا</a></li>
+                <li><a href="#floatingMenu" onclick="toggleMenu()">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>مرحبًا بكم في إبداع البوز</h2>
+        <p>نقدم أفضل خدمات صيانة البوز والاكستروس. لدينا فريق متميز ومحترف في اعمال الصيانة واصلاح الاعطال. نعمل دائماً على ارضاء العميل وتلبية رغباته، ونقوم بعملنا باحترافية واتقان.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>من نحن</h2>
+        <p> إبداع البوز  فريق متخصص ومحترف في صيانة جميع اعطال شاحنات البوز والاكستروس بإتفان وجودة عالية، نسعى دائماً للتميز والابداع في اعمالنا كما نسعى ايضاً لارضاء العميل.</p>
+    </section>
+
+    <section id="services" class="gallery">
+    <h2>خدماتنا</h2>
+    <div class="services">
+      <div class="service">صيانة اعطال الشاحنات</div>
+      <div class="service">اصلاح الاعطال بإتقان</div>
+      <div class="service">توظيب الشاحنات </div>
+      <div class="service">فريق اصلاح متنقل</div>
+      <div class="service">جميع اعمال الميكانيك</div>
+    </div>
+  </section>
+
+    <section id="gallery" class="gallery">
+        <h2>أعمالنا</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img.jpg" alt="عمل 1">
+                <p>وصف العمل 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="عمل 2">
+                <p>وصف العمل 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img2.jpg" alt="عمل 3">
+                <p>وصف العمل 3</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img6.jpg" alt="عمل 4">
+                <p>وصف العمل 4</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img3.jpg" alt="عمل 5">
+                <p>وصف العمل 5</p>
+            </div>
+             <div class="gallery-item">
+                <img src="img4.jpg" alt="عمل 6">
+                <p>وصف العمل 6</p>
+            </div>
+             <div class="gallery-item">
+                <img src="img5.jpg" alt="عمل 7">
+                <p>وصف العمل 7</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img7.jpg" alt="عمل 8">
+                <p>وصف العمل 8</p>
+            </div>
+        </div>
+    </section>
+
+      <div class="floating-menu" id="floatingMenu">
+        <div class="toggle-button" onclick="toggleMenu()">☰</div>
+        <ul>
+            <li><a class="icon-only" href="tel:0557490602"><i class="fas fa-phone"></i></a></li>
+            <li><a class="icon-only" href="https://wa.me/+966557490602" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a class="icon-only" href="https://www.tiktok.com/@youraccount" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            <li><a class="icon-only" href="https://www.snapchat.com/add/youraccount" target="_blank"><i class="fab fa-snapchat-ghost"></i></a></li>
+        </ul>
+    </div>
+    
+    <section id="location" class="locations">
+        <h2>موقعنا</h2>
+        <iframe src="https://www.google.com/maps?q=الرياض,+السعودية&output=embed" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 إبداع البوز. جميع الحقوق محفوظة.</p>
+        <p>تصميم: ناصر الورد 776844155</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
